@@ -4,55 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML email signature template</title>
-
-    <style>
-      .container {
-        width: 640px;
-        height: 200px;
-      }
-
-      .left,
-      .right {
-        display: inline-block;
-      }
-
-      .left img {
-        height: 200px;
-        padding-right: 20px;
-        display: inline-block;
-      }
-    </style>
   </head>
   <body>
-    <div class="container">
-      <div class="left">
-        <img src="/img/peakpx.jpg" alt="" />
-      </div>
+    <header style="margin-top: 36px; margin-left: 36px; background-color: gray">
       <div
-        class="right"
         style="
-          position: relative;
-          display: inline-block;
-          border-left: 4px solid black;
-          border-top-left-radius: 8px;
-          height: 100%;
-          padding-left: 20px;
-          top: -166px;
+          height: 80px;
+          width: 80px;
+          border-radius: 100px;
+          border: 4px solid black;
+          padding: 20px;
+          overflow: hidden;
+          box-shadow: 1px 6px 23px 2px #888888;
         "
       >
-        <h1
+        <img
+          src="/img/peakpx.jpg"
+          alt=""
           style="
-            display: inline-block;
+            display: flex;
             position: relative;
-            font-family: Arial, Helvetica, sans-serif;
-            color: rgb(56, 56, 56);
-            font-size: 20px;
-            top: 0;
+            justify-content: center;
+            align-items: center;
+            left: -27px;
+            top: -44px;
+            height: 227px;
           "
-        >
-          Mr. Your Name
-        </h1>
+        />
       </div>
-    </div>
+    </header>
   </body>
 </html>
